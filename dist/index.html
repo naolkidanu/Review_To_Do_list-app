@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>To-do List 2022</title>
+    <script defer src="bundle.js"></script>
+  </head>
+  <body>
+    <div class="main-panel">
+      <div class="title">
+        <h1 class="list-title">Today's To Do...</h1>
+        <img src="icons8-refresh-24.png" alt="refresher" id="refresher" />
+      </div>
+      <button type="button" class="btn-refresh">
+        <i class="fa fa-refresh" aria-hidden="true"></i>
+      </button>
+      <input
+        id="add-input"
+        class="add-input"
+        type="text"
+        placeholder="Add to your list"
+      />
+      <ul id="todo-list"></ul>
+      <button id="clear-btn" class="clear-btn" type="button" name="button">
+        Clear all completed
+      </button>
+    </div>
+  </body>
+</html>
